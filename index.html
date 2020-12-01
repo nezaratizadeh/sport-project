@@ -1,0 +1,164 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous" defer></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" defer></script>
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" data-search-pseudo-elements></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/app.js" defer></script>
+</head>
+
+<body onload = "startTimer()">
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="topNavBar">
+            <div class="leftSideNavBar">
+                <a class="" href="#">
+                    <img src="images/logo3.jpg" alt="sport" width="50%;">
+                </a>
+            </div>
+            <div class="rightSideNavBar">
+                <button id="toggleBtn" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="https://en.wikipedia.org/wiki/Basketball" target="_blank">Basketball <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://en.wikipedia.org/wiki/Volleyball" target="_blank">Volleyball</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://en.wikipedia.org/wiki/Tennis" target="_blank">Tennis</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://nl.wikipedia.org/wiki/Skaten" target="_blank">Skate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://en.wikipedia.org/wiki/Football" target="_blank">Football</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.bbc.com/sport/baseball" target="_blank">baseball</a>
+                        </li>
+<!--                        <li class="nav-item dropdown">-->
+<!--                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+<!--                                Dropdown-->
+<!--                            </a>-->
+<!--                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">-->
+<!--                                <a class="dropdown-item" href="#">Action</a>-->
+<!--                                <a class="dropdown-item" href="#">Another action</a>-->
+<!--                                <div class="dropdown-divider"></div>-->
+<!--                                <a class="dropdown-item" href="#">Something else here</a>-->
+<!--                            </div>-->
+<!--                        </li>-->
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success my-2 my-sm-0" id="searchBtn" >Go</button>
+                    </form>
+            </div>
+        </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <div class="topDiv">
+<!--        <p>Click here to get more <a href="sport.html">Information about some sport</a> </p>-->
+<!--        <p>Click here to know <a href="bestSport.html" target="_blank">which is the best sport for you</a></p>-->
+
+
+        <div class="bigImagesDiv">
+            <img id="img" src="images/footballBigImage.jpg" width="100%" height="450vh"/>
+        </div>
+
+        <h1>Sport</h1>
+        <p class="text-justify" id="sportInfo">
+                Sport includes all forms of competitive physical activity or games which,through casual or organized participation, at least in part aim to use, maintain or improve physical ability and skills while providing enjoyment to participants, and in some cases, entertainment for spectators. Sports can bring positive results to one's physical health. Hundreds of sports exist, from those between single contestants, through to those with hundreds of simultaneous participants, either in teams or competing as individuals. In certain sports such as racing, many contestants may compete, simultaneously or consecutively, with one winner; in others, the contest (a match) is between two sides, each attempting to exceed the other. Some sports allow a "tie" or "draw", in which there is no single winner; others provide tie-breaking methods to ensure one winner and one loser. A number of contests may be arranged in a tournament producing a champion. Many sports leagues make an annual champion by arranging games in a regular sports season, followed in some cases by playoffs.
+                Sport is generally recognised as system of activities which are based in physical athleticism or physical dexterity, with the largest major competitions such as the Olympic Games admitting only sports meeting this definition, and other organisations such as the Council of Europe using definitions precluding activities without a physical element from classification as sports. However, a number of competitive, but non-physical, activities claim recognition as mind sports. The International Olympic Committee (through ARISF) recognises both chess and bridge as bona fide sports, and SportAccord, the international sports federation association, recognises five non-physical sports: bridge, chess, draughts (checkers), Go and xiangqi, and limits the number of mind games which can be admitted as sports.
+                Sport is usually governed by a set of rules or customs, which serve to ensure fair competition, and allow consistent adjudication of the winner. Winning can be determined by physical events such as scoring goals or crossing a line first. It can also be determined by judges who are scoring elements of the sporting performance, including objective or subjective measures such as technical performance or artistic impression.
+                Records of performance are often kept, and for popular sports, this information may be widely announced or reported in sport news. Sport is also a major source of entertainment for non-participants, with spectator sport drawing large crowds to sport venues, and reaching wider audiences through broadcasting. Sport betting is in some cases severely regulated, and in some cases is central to the sport. For receive information about which is the best sport for you , please click <a target="_blank" href="bestSport.html">here</a>
+        </p>
+
+
+        <div class="row smallImagesDiv">
+            <div class="col-3 col-xs-3 col-xl-4">
+                <figure>
+                    <a href="https://www.bbc.com/sport/baseball" target="_blank"><img class="smallImage" src="images/baseballSmallImage.jpg" alt="baseball image" title="Baseball"></a>
+                    <figcaption>Baseball</figcaption>
+                </figure>
+             </div>
+            <div class="col-3 col-xs-3 col-xl-4">
+                <figure>
+                    <a href="https://www.bbc.com/sport/basketball" target="_blank"><img class="smallImage" src="images/basketballSmallImage.jpg" alt="basketball image" title="Basketball"></a>
+                    <figcaption>Basketball</figcaption>
+                </figure>
+            </div>
+            <div class="col-3 col-xs-3 col-xl-4">
+                <figure>
+                    <a href="https://www.bbc.com/sport/volleyball" target="_blank"><img class="smallImage" src="images/volleyballSmallImage.jpg" alt="volleyball image" title="Volleyball"></a>
+                    <figcaption>Volleyball</figcaption>
+                </figure>
+            </div>
+             <div class="col-3 col-xs-3 col-xl-4">
+                 <figure>
+                     <a href="https://www.bbc.com/sport/tennis" target="_blank"><img class="smallImage" src="images/tennisSmallImage.jpg" alt="tennis image" title="Tennis"></a>
+                     <figcaption>Tennis</figcaption>
+                 </figure>
+            </div>
+            <div class="col-3 col-xs-3 col-xl-4">
+                <figure>
+                    <a href="https://nl.wikipedia.org/wiki/Skaten" target="_blank"><img class="smallImage" src="images/skateSmallImage.jpg" alt="skate image" title="Skate"></a>
+                    <figcaption>Skate</figcaption>
+                </figure>
+            </div>
+            <div class="col-3 col-xs-3 col-xl-4" >
+                <figure>
+                    <a href="https://www.bbc.com/sport/football" target="_blank"><img class="smallImage" src="images/footballSmallImage.jpg" alt="football image" title="Football"></a>
+                    <figcaption>Football</figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <footer class="bottomDiv" id="bottomId">
+            <div class="leftSideBottomDiv">
+                 <div class="userDivClass">
+                     <label for="userName">Username:</label>
+                     <input name="userName" id="userName" type="text" class="form-control">
+
+                     <label for="password">Password:</label>
+                     <input id="password" name="password" type="text" class="form-control">
+
+                     <label></label>
+                     <input id="loginId" type="button" value="Login" style="width: 80px"  class="btn btn-primary">
+                 </div>
+            </div>
+
+            <div class="rightSideBottomDiv">
+                <div class="facebookBtnDiv btn-group">
+                    <a class="btn btn-md btn-fb btn-primary disabled"><i class="fab fa-facebook-f pr-1 rightFooterBtn"></i></a>
+                    <a class="btn btn-primary btnConfig" href=''> Sign in with Facebook</a>
+<!--                    <button type="button" class="btn btn-md btn-fb btn-primary"><i class="fab fa-facebook-f pr-1"></i> View news on Facebook</button>-->
+                </div>
+                <div class="youtubeBtnDiv btn-group">
+                    <a class="btn btn-md btn-tw btn-primary disabled"><i class="fab fa-twitter pr-1 rightFooterBtn"></i></a>
+                    <a class="btn btn-primary btnConfig" href='' > Sign in with Youtube</a>
+<!--                    <button type="button" class="btn btn-floating btn-tw btn-primary"><i class="fab fa-twitter"></i>  View news on Youtube</button>-->
+                </div>
+            </div>
+            </footer>
+
+        </div>
+
+    </div>
+
+</main>
+</body>
+</html>

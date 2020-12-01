@@ -1,0 +1,81 @@
+/* Designed by Leila*/
+
+
+/* setup body*/
+
+body {
+    font-size: 1.8rem;
+    font-family: Arial, serif;
+}
+
+
+/* mainDiv config start */
+.mainDiv {
+    margin: 5% auto 30% auto;
+    padding: 2%;
+    border-radius: 5px;
+    border: 3px solid white;
+    display: block;
+    width: 50%;
+}
+/* mainDiv config end */
+
+
+/* firstDiv config start */
+.firstDiv {
+    display: grid;
+    grid-template-columns: 40% 50% ;
+    grid-row-gap: 4%;
+}
+/* firstDiv config end */
+
+
+/* button config  start */
+.btnClass {
+    text-align: center;
+    margin-top: 6%;
+    font-size: 20px;
+}
+
+.btnDiv {
+    text-align: center;
+    padding-top: 45px;
+}
+
+#backBtnId{
+    margin-right: 5%;
+    width: 90px;
+}
+
+#checkBtnId{
+    width: 90px;
+}
+/* button config  end */
+
+
+/* input */
+input,select{
+    margin-bottom: 4%;
+}
+
+#heightId {
+    width: 30%;
+}
+
+#weightId {
+    width: 30%;
+}
+
+.ageDiv{
+    margin-top: 7%;
+}
+
+option {
+    background-color: white !important;
+}
+
+/* label config start */
+label{
+    color: white;
+}
+/* label config end */

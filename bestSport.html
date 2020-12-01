@@ -1,0 +1,72 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>bestSport</title>
+    <style>
+        body {
+            background-image: url('images/backgroundImage.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+    </style>
+    <link href="css/bestSportCss.css" type="text/css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" data-search-pseudo-elements></script>
+    <script defer src="js/sportScript.js">
+    </script>
+
+</head>
+
+<body>
+<form action="" target="_self" method="get">
+    <div class="container mainDiv">
+        <span id="ageError" class="error"></span>
+        <br>
+        <span id="weightError" class="error"></span>
+        <br>
+        <span id="heightError" class="error"></span>
+        <br>
+
+        <div class="firstDiv">
+            <label for="firstNameId">FirstName:(optional)</label>
+            <input type="text" name="firstName" id="firstNameId" autofocus>
+
+            <label for="lastNameId">LastName:(optional)</label>
+            <input type="text" name="lastName" id="lastNameId">
+
+            <label>Age:(*)</label>
+            <select id="ageId" class="ageClass" name="ageSelection" onclick="checkAgeValidation()">
+                <option value="selectAge" disabled selected>-- Select Age --</option>
+                <option value="between6-14">6-14</option>
+                <option value="between15-24">15-24</option>
+                <option value="between25-40">25-40</option>
+                <option value="moreThan40">more than 40</option>
+            </select>
+
+            <!--        <label class="ageLabel">Age:(*)</label>-->
+            <!--        <input id="ageId" class="ageInput" type="number" min="6" max="50" value="6" required onKeyDown="return false">-->
+
+
+            <label for="weightId" class="weightLabel">Weight:(*)</label>
+            <input name="weight" id="weightId" class="weightInput" type="number" min="20" value="20" max="120" required onclick="checkWeightValidation()" onchange="checkWeightValidation()" onkeypress="checkWeightValidation()" onkeydown="checkWeightValidation()" onkeyup="checkWeightValidation()">
+
+            <label for="heightId" class="heightLabel">Height:(*)</label>
+            <input name="height" id="heightId" class="heightInput" type="number" min="100" max="2000" value="100" required onclick="checkHeightValidation()" onchange="checkHeightValidation()" onkeypress="checkHeightValidation()" onkeydown="checkHeightValidation()" onkeyup="checkHeightValidation()">
+
+        </div>
+
+        <div class="btnDiv">
+            <button type="button" class="btn" id="backBtnId" onclick="backToHomePage()"><i class="fas fa-hand-point-left fa-lg"></i>back</button>
+            <button type="button" class="btn" id="checkBtnId" onclick="checkForBestSport()"><i class="fas fa-check fa-lg"></i>check</button>
+            <!--                <input type="button" class="btn btn-sm " id="backBtnId" value="back" onclick="backToHomePage()">-->
+            <!--                <input type="button" class="btn btn-sm " id="checkBtnId" value="check" onclick="checkForBestSport()">-->
+        </div>
+
+    </div>
+</form>
+</body>
+
+</html>

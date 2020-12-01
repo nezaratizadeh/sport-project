@@ -1,0 +1,186 @@
+/* Desigend by Leila*/
+
+/* setup body */
+body{
+    font-family: Arial, serif;
+    font-size: 1rem;
+    background-color: #2d2d3d;
+}
+/* setup body end */
+
+
+/* header config  start*/
+header{
+    display: block;
+    padding-bottom: 4%;
+}
+
+/* navbar config */
+.topNavBar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.leftSideNavBar{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding-left: 9%;
+
+}
+
+.rightSideNavBar{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+#toggleBtn{
+    border: none;
+}
+
+/* header config end */
+
+h1{
+ color: white
+}
+
+#sportInfo{
+    color: white;
+    padding-bottom: 5%;
+    font-family: Arial;
+    line-height: 28px;
+}
+
+
+/* main Div begin  */
+.topDiv{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+/* main Div end */
+
+
+/* big image begin */
+.bigImagesDiv{
+    padding-bottom: 4%;
+    padding-top: 30px;
+}
+/* big image end */
+
+
+/* smalll image begin */
+.smallImage{
+    width: 100%;
+    height: 30vh;
+    padding-bottom: 4%;
+}
+
+.smallImagesDiv{
+    width:100%;
+    margin: 0 auto;
+    padding-bottom: 8%;
+}
+/* smalll image end */
+
+
+/* figure config begin */
+figcaption{
+    color: white;
+    font-size: 80%;
+    text-align: center;
+}
+/* figure config end */
+
+
+p{
+    text-align: center;
+    color: white;
+}
+
+
+/* anchor config begin  */
+a{
+    color: aqua;
+}
+a:hover{
+    color:#185abc;
+}
+/* anchor config end  */
+
+
+/* bottom config start */
+
+.bottomDiv{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.leftSideBottomDiv{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.rightSideBottomDiv{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.userDivClass{
+    font-family: Arial, serif;
+    color: white;
+    border-right: solid white 2px;
+    display: grid;
+    grid-template-columns: 40% 70% ;
+    grid-row-gap:14px;
+}
+
+.loginDiv{
+    padding-bottom: 4%;
+    padding-left: 18%;
+}
+
+
+
+.facebookBtnDiv{
+    padding-left: 12%;
+}
+
+.youtubeBtnDiv{
+    padding-left: 12%;
+    padding-top: 4%;
+}
+
+input[type=text] {
+    width: 60%;
+}
+
+#loginId{
+    width: 210px;
+
+}
+
+.rightFooterBtn{
+    width:16px;
+    height:20px;
+}
+
+.btnConfig{
+    width:12em;
+}
+
+/* bottom config end */
+
+
+
+
